@@ -68,7 +68,7 @@ App = {
     web3.eth.getCoinbase(function(err, account) {
       if (err === null) {
         App.account = account;
-        $("#accountAddress").html("<b>" + "Your Current Account:  " + "</b>" + account);
+        $("#accountAddress").html("<b>" + "Account currently logged in:   " + "</b>" + account);
       }
     });
 
